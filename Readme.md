@@ -154,6 +154,3 @@ Add what you need. Here are some features you could implement:
 * Anything else your game may need
 
 ---
-
-Want me to also make the **Table of Contents auto-update friendly** (using something like [`doctoc`](https://github.com/thlorenz/doctoc) or GitHub Actions), so you don’t need to manually maintain it?
-
