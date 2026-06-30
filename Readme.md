@@ -37,7 +37,7 @@ Just create a repository using this as the template. By default it includes a sp
 
 #### Running
 
-If you are on windows, you only need to place `raylib.dll` next to the `main.go` file. See [PureGo](https://github.com/gen2brain/raylib-go/?tab=readme-ov-file#purego-without-cgo-ie-cgo_enabled0)
+If you are on windows, you only need to place `raylib.dll` next to the `main.go` file. See [PureGo](https://github.com/gen2brain/raylib-go/tree/fca3bf26c5680238753ee90d6c2905805d87127a#purego-without-cgo-ie-cgo_enabled0)
 
 For linux and mac you will need some dependencies.
 See [raylib-go](https://github.com/gen2brain/raylib-go/) for instructions.
