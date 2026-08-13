@@ -51,8 +51,12 @@ func Run(scenes Scenes, cfg Config, Assets fs.FS) error {
 	defer rl.CloseAudioDevice()
 	// -----------------------CENTER WINDOW----------------------------
 	if !ctx.IsWeb {
-		WindowWidth, WindowHeight := (rl.GetScreenWidth()*90)/100, (rl.GetScreenHeight()*90)/100
-		rl.SetWindowSize(WindowWidth, WindowHeight) //90% of screen
+		// commented because of https://github.com/gen2brain/raylib-go/issues/559
+		// uncomment when fixed.
+		/*
+			WindowWidth, WindowHeight := (rl.GetScreenWidth()*90)/100, (rl.GetScreenHeight()*90)/100
+			rl.SetWindowSize(WindowWidth, WindowHeight) //90% of screen
+		*/
 		centerWindow()
 	}
 	// ----LOAD START SCENE----
